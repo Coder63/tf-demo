@@ -18,7 +18,7 @@ provider "aws" {
 
 resource "aws_instance" "example" {
   # Ubuntu Server 14.04 LTS (HVM), SSD Volume Type in us-east-1
-  ami = "ami-2d39803a"
+  ami = "ami-efd0428f"
   instance_type = "t2.micro"
   vpc_security_group_ids = ["${aws_security_group.instance.id}"]
 
